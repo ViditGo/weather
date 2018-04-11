@@ -38,6 +38,7 @@ class SearchBar extends React.Component {
     
     
     render() {
+        // console.log(temps)
         return (
             <form onSubmit={this.onFormSubmit} className='input-group'>
             <input 
